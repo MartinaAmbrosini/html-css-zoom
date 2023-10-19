@@ -40,7 +40,7 @@
     margin-right: auto;}
   
 main {
-    height: calc(100vh - 120px);
+    height: calc(90vh - 20px);
     background-color: black;
     
 }
@@ -75,6 +75,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    bottom: 0;
 }
 
 .bg-grey {
@@ -83,9 +85,10 @@ footer {
 }
 
 .icons {
-    margin-left: 9px;
+    margin-left: 15px;
     display: flex;
     justify-content: center;
+    height: 80px;
 }
 
 .content {
@@ -94,11 +97,12 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+    margin: 10px;
 }
 
 
 .fa-angle-up {
-    margin-top: 50%;
+    margin-top: 35px;
     margin-left: 20px;
 } 
 
@@ -112,4 +116,16 @@ footer {
     color: white;
     text-decoration: none;
     margin-top: 10px;
+    font-size: 15px;
+}
+
+.right{
+    background-color: #4a4a4a;
+    height: 80px;
+    width: 125px;
+    line-height: 35px;
+}
+
+.end_meeting {
+    color: red; 
 }
