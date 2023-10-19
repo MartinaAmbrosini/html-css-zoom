@@ -37,8 +37,7 @@
 .container {
     width: 1750px;
     margin-left: auto;
-    margin-right: auto;
-}
+    margin-right: auto;}
   
 main {
     height: calc(100vh - 120px);
@@ -76,7 +75,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
 }
 
 .bg-grey {
@@ -84,13 +82,34 @@ footer {
     height: 80px;
 }
 
-
-footer div {
-    padding: 2px 10px;
-
+.icons {
+    margin-left: 9px;
+    display: flex;
+    justify-content: center;
 }
 
-,left {
+.content {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding-top: 15px;
+}
+
+
+.fa-angle-up {
+    margin-top: 50%;
+    margin-left: 20px;
+} 
+
+.left {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.text-end {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
 }
